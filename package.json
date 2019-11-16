@@ -1,0 +1,23 @@
+{
+  "name": "rickyrecordo",
+  "version": "1.0.0",
+  "description": "Electron desktop soundboard app.",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^7.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellokoji/RickyRecordo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellokoji/RickyRecordo/issues"
+  },
+  "homepage": "https://github.com/hellokoji/RickyRecordo#readme"
+}
