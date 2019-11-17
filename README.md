@@ -1,6 +1,6 @@
 # RickyRecordo
 
-> A desktop application intended as a soundboard to use on VOIP applications.
+> A desktop application intended as a soundboard to use on VOIP applications. Built with electron-forge.io.
 
 
 ## Dev
@@ -12,16 +12,8 @@ $ npm install
 ### Run
 
 ```
-$ bozon start
+$ npm start
 ```
-
-### Package
-
-```
-$ bozon package
-```
-
-Builds the app for OS X, Linux, and Windows, using [electron-builder](https://github.com/electron-userland/electron-builder).
 
 
 ## License

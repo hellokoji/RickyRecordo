@@ -10,8 +10,8 @@ ipcRenderer.on('loaded', (event, data) => {
     console.log(evt);
   });
   document.getElementById('play1Button').addEventListener('click', (evt) => {
-    // const fart_noise = new Audio('fart_sound.mp3');
-    // fart_noise.play();
+    const fart_noise = new Audio('fart_sound.mp3');
+    fart_noise.play();
     console.log('playing a sound!');
     console.log(evt);
   });
