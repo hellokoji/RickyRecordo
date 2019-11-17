@@ -1,23 +1,26 @@
 {
-  "name": "rickyrecordo",
-  "version": "1.0.0",
-  "description": "Electron desktop soundboard app.",
-  "main": "main.js",
-  "dependencies": {
-    "electron": "^7.1.1"
+  "name": "RickyRecordo",
+  "version": "0.1.0",
+  "description": "RickyRecordo application build with Electron",
+  "repository": "",
+  "dependencies": {},
+  "author": {
+    "name": "emoDinosaur",
+    "email": ""
   },
-  "devDependencies": {},
-  "scripts": {
-    "start": "electron ."
+  "devDependencies": {
+    "bozon": "0.10.4",
+    "mocha": "^6.1.4",
+    "spectron": "^6.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hellokoji/RickyRecordo.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hellokoji/RickyRecordo/issues"
-  },
-  "homepage": "https://github.com/hellokoji/RickyRecordo#readme"
+  "build": {
+    "appId": "com.electron.rickyrecordo",
+    "win": {
+      "publish": null
+    },
+    "mac": {
+      "publish": null,
+      "category": "your.app.category.type"
+    }
+  }
 }
